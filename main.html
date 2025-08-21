@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Prits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background -->
+  <div class="bg-image"></div>
+  <div class="bg-overlay"></div>
 
+  <!-- Sparkles -->
+  <div id="sparkles"></div>
+
+  <!-- Content -->
+  <div class="content">
+    <h1>
+      <span class="title-top">HAPPY BIRTHDAY</span>
+      <span class="title-name">Prits</span>
+    </h1>
+    <p class="subtitle">One year to the day when I sang Zehenaseeb for you</p>
+
+    <!-- Sliding Polaroids -->
+    <div class="slider-container">
+      <div class="slider" id="slider"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+
+  <div class="footer-message">
+  From your joghrute boyfriend<br>
+  <span class="love-text"><i>I love you</i>❤️</span>
+</div>
+
+<audio id="birthday-audio" src="assets/happy-birthday.mp3" autoplay loop muted></audio>
+</body>
+</html>
