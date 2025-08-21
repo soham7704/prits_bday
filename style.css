@@ -16,7 +16,7 @@ body {
 
 /* Background */
 .bg-image {
-  background-image: url("pic2.webp");
+  background-image: url("assets/pic2.webp");
   background-size: cover;              /* Ensures the image covers the frame */
   background-position: center center;  /* Centers the image */
   background-repeat: no-repeat;        /* Prevents tiling */
